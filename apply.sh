@@ -4,7 +4,7 @@ set -ex
 
 PATCHES="$(realpath "$(dirname "${0}")")"
 TOP="$(realpath "$(dirname "${0}")/..")"
-DIRS="bionic system/bpf frameworks/native"
+DIRS="system/bpf frameworks/native"
 
 patchapply() {
     cd "${TOP}/${1}"

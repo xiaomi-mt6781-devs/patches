@@ -1,19 +1,12 @@
 # Patches
 
-Patches for ArrowOS (viva)
+Patches for LineageOS (viva)
 
 ## Install
 
 Just move this directory to `$ANDROID_BUILD_TOP/patches` and run apply.sh
 
 ## List
-
-`bionic/`:
-
-Jemalloc causes problem with some of the prebuilts HALs
-
-- [0002-Revert-Switch-to-jemalloc-memory-allocator.patch](bionic/0002-Revert-Switch-to-jemalloc-memory-allocator.patch)
-- [0001-Revert-Verify-that-allocated-memory-is-always-zeroed.patch](bionic/0001-Revert-Verify-that-allocated-memory-is-always-zeroed.patch)
 
 `system/bpf`:
 
