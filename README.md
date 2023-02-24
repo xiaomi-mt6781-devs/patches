@@ -14,9 +14,3 @@ BPF Is known to be broken on MTK S kernels, and there's no real way to fix it (a
 
 - [0001-Revert-detect-inability-to-write-to-index-0-of-bpf-m.patch](system/bpf/0001-Revert-detect-inability-to-write-to-index-0-of-bpf-m.patch)
 
-`frameworks/native`:
-
-**Optional**
-Just removes some log spam
-
-- [0001-BLASTBufferQueue-Comment-out-lines-causing-log-spam.patch](frameworks/native/0001-BLASTBufferQueue-Comment-out-lines-causing-log-spam.patch)
