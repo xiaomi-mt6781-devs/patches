@@ -2,15 +2,9 @@
 
 Patches for LineageOS (viva)
 
+**Those are no longer needed for building**
+
 ## Install
 
 Just move this directory to `$ANDROID_BUILD_TOP/patches` and run apply.sh
-
-## List
-
-`system/bpf`:
-
-BPF Is known to be broken on MTK S kernels, and there's no real way to fix it (as we're using prebuilt kernel). This only reverts a check done on that makes sure BPF is working properly, but doesn't fix BPF at all.
-
-- [0001-Revert-detect-inability-to-write-to-index-0-of-bpf-m.patch](system/bpf/0001-Revert-detect-inability-to-write-to-index-0-of-bpf-m.patch)
 

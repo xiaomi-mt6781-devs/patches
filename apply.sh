@@ -4,7 +4,7 @@ set -ex
 
 PATCHES="$(realpath "$(dirname "${0}")")"
 TOP="$(realpath "$(dirname "${0}")/..")"
-DIRS="system/bpf lineage-sdk"
+DIRS=""
 
 patchapply() {
     cd "${TOP}/${1}"
